@@ -3,7 +3,7 @@ const {client} = require('./db');
 
 const auth = async(req, res, next) => {
     try {
-        const token = req.body.token || req.headers.authorization.split(' ')[1];
+        const token = req.body.token || req.query.token ||  req.headers.authorization.split(' ')[1];
         if(!token) return res.status(401).send();
         const {_id, exp} = jwt.decode(token, process.env.JWT_SEC);
         if(!_id || !exp) return res.status(401).send();
