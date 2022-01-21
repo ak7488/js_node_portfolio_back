@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-ak7488",
+  "version": "1.0.0",
+  "description": "A private portfolio for user ak7488 on github.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "env-cmd -f env/dev.env nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak7488/js_node_portfolio.git"
+  },
+  "author": "anubhav anand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ak7488/js_node_portfolio/issues"
+  },
+  "homepage": "https://github.com/ak7488/js_node_portfolio#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.3.0",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
