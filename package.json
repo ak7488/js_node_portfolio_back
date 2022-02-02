@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ak7488/js_node_portfolio#readme",
   "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "env-cmd": "^10.1.0",
