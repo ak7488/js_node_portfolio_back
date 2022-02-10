@@ -27,7 +27,9 @@ router.get("/skills", (req, res) => {
                 "CSS",
                 "Vanela javascript",
                 "Tailwind",
+                "Typescript"
             ],
+            tools: ['VS Code', "JSON", "Prettier"]
         });
     } catch (e) {
         console.log(e);
